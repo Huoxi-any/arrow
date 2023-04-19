@@ -15,7 +15,7 @@
 # specific language governing permissions and limitations
 # under the License.
 
-ARG FROM=ubuntu:jammy
+ARG FROM=ubuntu:kinetic
 FROM ${FROM}
 
 RUN \
