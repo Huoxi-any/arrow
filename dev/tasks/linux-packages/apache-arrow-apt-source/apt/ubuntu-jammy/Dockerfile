@@ -15,7 +15,7 @@
 # specific language governing permissions and limitations
 # under the License.
 
-FROM ubuntu:jammy
+FROM ubuntu:kinetic
 
 RUN \
   echo "debconf debconf/frontend select Noninteractive" | \
