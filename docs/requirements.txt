@@ -10,3 +10,4 @@ sphinx-design
 sphinx-copybutton
 sphinx>=4.2
 pandas
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
