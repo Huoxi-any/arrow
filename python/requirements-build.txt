@@ -2,3 +2,4 @@ cython>=0.29
 oldest-supported-numpy>=0.14
 setuptools_scm
 setuptools>=38.6.0
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
